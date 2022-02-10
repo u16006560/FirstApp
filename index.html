@@ -1,0 +1,37 @@
+<html>
+  <script src="C:\Users\Soiboi\Documents\SufyaanProjects\FirstApp\app.js"></script>
+  <title>MyFirstApp</title>
+  <body>
+    <div>Welcome to my first app</div>
+    <br />
+    <div>
+      <label for="username">Username: </label>
+      <input type="text" id="username" />
+      <br />
+      <label for="password">Password: </label>
+      <input type="text" id="password" />
+      <br />
+      <button type="button" id="submitLogin" onclick="getLoginInfo()">Submit</button>
+      <button type="button" id="clear" onclick="clearLoginInfo()">Clear</button>
+      <br />
+    </div>
+    <br />
+    <div>
+      If you are not registered, please do so below:
+      <div>
+        <br />
+        <label for="name">Name: </label>
+        <input type="text" id="name" />
+        <br />
+        <label for="surname">Surname: </label>
+        <input type="text" id="surname" />
+        <br />
+        <button type="button" id="submitRegister" onclick=registerUser()>Submit</button>
+      </div>
+    </div>
+    <br />
+    <div id="clientList">
+        List of registered clients: 
+    </div>
+  </body>
+</html>
